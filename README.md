@@ -1,8 +1,7 @@
-Simple progress bar.
-###
+### Simple progress bar.
 
 Usage:
-'''python
+```python
 import progress_bar as pg
 
 sample_list = range(0, 999)
@@ -10,4 +9,4 @@ Bar = pg.SetBar(text='Text', total=len(sample_list), filler='#') # emojii not su
 
 for i in sample_list:
     Bar.update_bar()
-'''
+```
